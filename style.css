@@ -23,7 +23,7 @@ h3{
     padding: 0px 25px;
     border-left: 5px solid tomato;
     border-radius: 5px;
-    color: rgb(37, 37, 37);
+    color: rgb(35, 35, 100);
 }
 .highlight{
     color: tomato;
@@ -43,6 +43,7 @@ h3{
     font-size: 25px;
 }
 .button{
+    display: inline-block;
     font-family: poppins;
     background-color: #ff4444;
     text-decoration: none;
@@ -85,6 +86,11 @@ h3{
 }
 
 .sec3{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position-x: left;
+    background-position-y: center;
     display: flex;
     margin: 0% 5%;
     justify-content: space-evenly;
@@ -92,6 +98,11 @@ h3{
 }
 
 .sec4{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position-x: 1300px;
+    background-position-y: bottom;
     display: flex;
     margin: 0% 5%;
     justify-content: space-evenly;
