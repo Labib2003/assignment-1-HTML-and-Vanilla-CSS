@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    background-color: ivory;
 }
 h1{
     font-size: 80px;
@@ -17,10 +18,10 @@ h3{
 }
 .sec1 h1{
     font-family: Yeseva One;
-    font-size: 70px;
+    font-size: 75px;
     font-weight: 500;
-    padding: 25px;
-    border-left: 5px solid #ff2525;
+    padding: 0px 25px;
+    border-left: 5px solid tomato;
     border-radius: 5px;
     color: rgb(37, 37, 37);
 }
@@ -52,7 +53,7 @@ h3{
 
 .sec2{
     display: flex;
-    margin: 0% 5%;
+    margin: 0% 7%;
     justify-content: space-evenly;
     padding-bottom: 100px;
 }
@@ -68,7 +69,7 @@ h3{
     width: 25%;
     padding: 0px 25px;
     border-radius: 10px;
-    padding-bottom: 25px;
+    padding: 25px;
 }
 .cards img{
     width: 50%;
@@ -111,4 +112,7 @@ footer{
 footer h2{
     font-family: lobster;
     font-weight: 300;
+}
+footer small{
+    font-family: poppins;
 }
